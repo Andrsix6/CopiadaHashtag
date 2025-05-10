@@ -133,3 +133,46 @@ strong {
 
 /* Seção Como ajudar */
 
+.comoajudar-realce {
+    font-weight: 600;
+}
+
+.comoajudar-lista, .comoajudar-paragrafo {
+    font-size: 19px;
+}
+
+.comoajudar-lista a, .comoajudar-paragrafo a {
+    color: #008ff7;
+    font-weight: 600;
+}
+
+.comoajudar-paragrafo b {
+    font-weight: 600;
+}
+
+/* Seção Minicurso */
+
+.minicurso-realce {
+    font-weight: 600;
+}
+
+/* Rodapé */
+
+.rodape-titulo {
+    font-weight: 600;
+    font-size: 22px;
+}
+
+.rodape-subtitulo {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.rodape-subtitulo2 {
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.rodape-link {
+    color: #1a77a4;
+}
