@@ -15,6 +15,7 @@ body {
   color: #404040;
   font-size: 1.6rem;
   line-height: 1.4;
+  background-color: #f4f5f7;
 }
 
 h1 {
@@ -63,6 +64,20 @@ strong {
 .realce-semibold {
   font-weight: 600;
 }
+
+.caixa-gratuito-h3,
+.caixa-blog-h2 {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  display: inline-block;
+  padding: 0.42rem 1.02rem;
+  color: white;
+  border-radius: 1rem;
+  transform: rotate(-3deg) translate(-50%, -50%);
+  box-shadow: 0 0.21rem 0.4rem rgba(0, 0, 0, 0.15);
+}
+
 
 /* Cabeçalho */
 
@@ -151,16 +166,7 @@ nav {
 }
 
 .caixa-gratuito-h3 {
-  position: absolute;
-  top: 0;
-  left: 50%;
-  display: inline-block;
-  padding: 0.42rem 1.02rem;
   background-image: linear-gradient(90deg, #aa56e6, #6d42b9);
-  color: white;
-  border-radius: 1rem;
-  transform: rotate(-3deg) translate(-50%, -50%);
-  box-shadow: 0 0.21rem 0.4rem rgba(0, 0, 0, 0.15);
 }
 
 .circulo-logo-curso {
@@ -196,7 +202,7 @@ nav {
   border-radius: 2.5rem;
   box-shadow: inset 0 0 0.4rem 0.2rem rgba(0, 0, 0, 0.15);
   font-size: 1.92rem;
-  line height: 1.3;
+  line-height: 1.3rem;
   text-decoration: none;
   color: inherit;
 }
@@ -384,10 +390,57 @@ background-image: url(https://elegant-rabanadas-4b0397.netlify.app/Imagens/Forma
   border-right-color: #1a80a7;
 }
 
+/* Seção Na mídia */
+.secao-namidia {
+  padding-top: 3.9rem;
+  padding-bottom: 3.9rem;
+  background-image: url(https://www.hashtagtreinamentos.com/wp-content/uploads/2022/06/BACKGROUND-Banner-05_1.png);
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.seta-namidia,
+.h2-namidia {
+  display: inline-block;
+}
+
 /* Seção Blog */
 
+.secao-blog {
+  background-color: #f4f5f7;
+}
+
+.container-blog {
+  position: relative;
+  border-radius: 5rem;
+  background-color: #f9f9f9;
+  box-shadow: inset 0 0 0.8rem 0.3rem rgba(0, 0, 0, 0.15);
+  padding: 4.88rem;
+}
+
+.caixa-blog-h2 {
+  width: max-content;
+  background-image: linear-gradient(90deg, #feb914, #f6a50b);
+  padding: 1.02rem 3.12rem;
+}
+
+.caixa-postblog {
+  display: inline-block;
+  border-radius: 2.5rem;
+  box-shadow: inset 0 0 0.8rem 0.3rem rgba(0, 0, 0, 0.15);
+  padding: 2rem;
+  width: 49%;
+  background-color: #fff;
+}
+
+.caixa-postblog img {
+  width: 100%;
+}
+
 .blog-postadoem {
-  font-size: 1.5rem;
+  font-size: 1.33rem;
+  line-height: 1.5rem;
 }
 
 .blog-postadoem a {
@@ -397,7 +450,7 @@ background-image: url(https://elegant-rabanadas-4b0397.netlify.app/Imagens/Forma
 }
 
 .blog-titulopost {
-  font-size: 2.4rem;
+  font-size: 2.3rem;
   font-weight: 600;
   text-decoration: none;
 }
@@ -408,16 +461,57 @@ background-image: url(https://elegant-rabanadas-4b0397.netlify.app/Imagens/Forma
 
 /* Seção Como ajudar */
 
+.secao-comoajudar {
+  padding: 0;
+}
+
+.secao-sec-laranja {
+  background-image: url(https://elegant-rabanadas-4b0397.netlify.app/Imagens/Formato%20Novo/BACKGROUND-banner-07.webp);
+  background-position: 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.secao-sec-laranja,
+.secao-sec-cinza {
+  padding: 7.63rem 2rem;
+}
+
+.caixa-comoajudar-h2 {
+  display: inline-block;
+  padding: 0.42rem 1.6rem;
+  color: white;
+  border-radius: 1rem;
+  box-shadow: 0 0.21rem 0.4rem rgba(0, 0, 0, 0.15);
+  background-image: linear-gradient(90deg, #13a1d5, #1a8ad4);
+}
+
+.comoajudar-lista {
+  border-radius: 2.5rem;
+  box-shadow: inset 0 0 0.8rem 0.15rem rgba(0, 0, 0, 0.15);
+  padding: 2.5rem;
+  background-color: #f9f9f9;
+}
+
 .comoajudar-lista,
 .comoajudar-paragrafo {
   font-size: 1.92rem;
   line-height: 1.3;
 }
 
-.comoajudar-lista a,
-.comoajudar-paragrafo a {
+.comoajudar-lista a:link,
+.comoajudar-lista a:visited,
+.comoajudar-paragrafo a:link,
+.comoajudar-paragrafo a:visited {
   color: #008ff7;
   font-weight: 600;
+}
+
+.comoajudar-lista a:hover, 
+.comoajudar-lista a:active,
+.comoajudar-paragrafo a:hover,
+.comoajudar-paragrafo a:active {
+  color: #0056b3;
 }
 
 .comoajudar-paragrafo b {
